@@ -1,0 +1,22 @@
+{
+  "name": "build",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.13.12",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "rollup": "^3.9.1"
+  },
+  "dependencies": {
+    "chart.js": "4.6.1",
+    "@kurkle/color": "0.3.2",
+    "chartjs-adapter-date-fns": "3.0.0",
+    "date-fns": "2.30.0"
+  }
+}
